@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         
         print(personDetails.firstname)
         print(personDetails.lastName)
+        
+        // Lazy Property
+        
+        let datafile = DataLoader()
+        print(datafile)
+        print(datafile.fileData)
     }
 
 
