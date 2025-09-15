@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Computed Property
 
 struct Rectangle {
     
