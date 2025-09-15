@@ -12,6 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // Computer Property
+        var comProp = Rectangle(width: 20, height: 40)
+         print(comProp.area)
+        
+        var personDetails = Person()
+        personDetails.fullName = "Mallikharjuna Gupta" //  Set the Fullname
+        
+        print(personDetails.firstname)
+        print(personDetails.lastName)
     }
 
 
