@@ -16,6 +16,7 @@
 		18B169542E770FB1006D7FB5 /* StoredProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B169532E770FB1006D7FB5 /* StoredProperty.swift */; };
 		18B169562E77104B006D7FB5 /* ComputedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B169552E77104B006D7FB5 /* ComputedProperties.swift */; };
 		18B169582E77F653006D7FB5 /* LazyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B169572E77F653006D7FB5 /* LazyProperty.swift */; };
+		18B1695A2E780C6E006D7FB5 /* PropertyObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B169592E780C6E006D7FB5 /* PropertyObservers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18B169532E770FB1006D7FB5 /* StoredProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredProperty.swift; sourceTree = "<group>"; };
 		18B169552E77104B006D7FB5 /* ComputedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedProperties.swift; sourceTree = "<group>"; };
 		18B169572E77F653006D7FB5 /* LazyProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyProperty.swift; sourceTree = "<group>"; };
+		18B169592E780C6E006D7FB5 /* PropertyObservers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyObservers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				18B169532E770FB1006D7FB5 /* StoredProperty.swift */,
 				18B169552E77104B006D7FB5 /* ComputedProperties.swift */,
 				18B169572E77F653006D7FB5 /* LazyProperty.swift */,
+				18B169592E780C6E006D7FB5 /* PropertyObservers.swift */,
 				18B169452E76FDE6006D7FB5 /* Main.storyboard */,
 				18B169482E76FDE9006D7FB5 /* Assets.xcassets */,
 				18B1694A2E76FDE9006D7FB5 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B169442E76FDE6006D7FB5 /* ViewController.swift in Sources */,
+				18B1695A2E780C6E006D7FB5 /* PropertyObservers.swift in Sources */,
 				18B169542E770FB1006D7FB5 /* StoredProperty.swift in Sources */,
 				18B169402E76FDE6006D7FB5 /* AppDelegate.swift in Sources */,
 				18B169422E76FDE6006D7FB5 /* SceneDelegate.swift in Sources */,
